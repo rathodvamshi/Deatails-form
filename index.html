@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div class="title">Fill Your Details</div>
+        <div class="div-form">
+            <form name="submit-to-google-sheet">
+                <!-- Form groups go here -->
+                <div class="form-group">
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="roll-no"><b>Roll-No</b></label>
+                    <input type="text" id="roll-no" name="roll-no" placeholder="Enter your roll number" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><b>Email address</b></label>
+                    <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+                </div>
+                <div class="form-group">
+                    <label for="mobile"><b>Mobile</b></label>
+                    <input type="tel" id="mobile" name="mobile" placeholder="756****235" required>
+                </div>
+                <div class="form-actions">
+                    <button type="submit">Create account</button>
+                </div>
+                <div class="form-footer">
+                    <p>Don't you have an account? <a href="#">Sign-up</a>.</p>
+                </div>
+                <p class="divider">____________________OR______________________</p>
+                <div class="logos">
+                    <a href="https://accounts.google.com/signup" target="_blank">
+                        <img src="./gogle.jpg" alt="Google" class="logo">
+                    </a>
+                    <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                        <img src="./insta1.jpg" alt="Instagram" class="logo">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="./facebook.jpg" alt="Facebook" class="logo">
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./script1.js"></script>
+</body>
+</html>
